@@ -1,0 +1,16 @@
+Right now you have easy access to score you can create differents events that increasing score.
+You can have varius object that have connection with ScriptableInt, but not necesarly with UI,
+or other object that will use score.
+Only issue you have to update ui manually (or you can make some delegate/job/action to do it).
+Score value is holded through scenes, but going to be deleted on exiting program so it's wort to
+have some saving points, exp. public void on Disable(){};
+
+
+x object  ---> scriptableint ---> y object
+                    |
+		    |
+		z. object 
+
+
+
+etc.
